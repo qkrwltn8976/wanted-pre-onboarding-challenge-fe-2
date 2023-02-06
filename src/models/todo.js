@@ -1,10 +1,10 @@
 /**
  * @typedef {Object} Todo
- * @property {number} id
- * @property {string} content
- * @property {boolean} isCompleted
- * @property {number} categoryId
- * @property {number[]} tagIds
+ * @property {number} id (required)
+ * @property {string} content (required)
+ * @property {boolean} isCompleted (required)
+ * @property {number} categoryId (required)
+ * @property {number[]?} tagIds (optional)
  */
 
 /**
