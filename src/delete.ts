@@ -3,7 +3,7 @@
  * @param {number} todoId
  * @returns {void}
  */
-const deleteTodo = (todoId) => {};
+const deleteTodo = (todoId: number) => {};
 
 /**
  * 모든 할 일을 제거할 수 있다.
@@ -13,15 +13,15 @@ const deleteAllTodos = () => {};
 
 /**
  * 특정 할 일의 특정 태그를 삭제할 수 있다.
- * @param {number[]} todoId
- * @param {number} tagId
+ * @param {number} todoId
+ * @param {number[]} tagId
  * @returns {void}
  */
-const deleteTodoTag = (todoId, tagId) => {};
+const deleteTodoTag = (todoId: number, tagId: number[]) => {};
 
 /**
  * 특정 할 일의 모든 태그를 제거할 수 있다.
  * @param {number} todoId
  * @returns {void}
  */
-const deleteAllTodoTags = (todoId) => {};
+const deleteAllTodoTags = (todoId: number) => {};

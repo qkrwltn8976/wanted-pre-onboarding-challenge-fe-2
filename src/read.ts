@@ -9,4 +9,4 @@ const getAllTodos = () => {};
  * @param {number} todoId
  * @returns {Todo}
  */
-const getTodoById = (todoId) => {};
+const getTodoById = (todoId: number) => {};
